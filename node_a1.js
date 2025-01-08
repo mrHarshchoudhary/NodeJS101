@@ -35,9 +35,10 @@ const fs = require("fs");
 
 // Q8 Delete the folder space_project
 
- fs.rmdirSync("space_project")
+//  fs.rmdirSync("space_project")
 
-
+// fs.writeFileSync("file.txt","old content")
+fs.writeFileSync("file.txt","this is the new content")
 
 
 
